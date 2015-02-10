@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,cyrillic);
+.section-dark {
+  color: white;
+  background-color: #1e1e1e; }
+
+.section-light {
+  color: #1e1e1e;
+  background-color: white; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+body {
+  font-family: Cuprum, Helvetica, Arial, sans-serif !important;
+  font-size: 18px; }
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.text-block {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.block-inline {
+  display: inline-block; }
+
+a.btn-download {
+  color: white;
+  background-color: #e3353e;
+  border: 0px;
+  border-radius: 0px;
+  padding: 15px 15px;
+  font-style: italic;
+  font-weight: bold;
+  min-width: 280px;
+  font-size: 1.3em; }
+
+header .lang-chooser {
+  text-align: right; }
+  header .lang-chooser > span {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: white; }
+    header .lang-chooser > span a {
+      color: white;
+      text-decoration: underline; }
+    header .lang-chooser > span .active {
+      text-decoration: none;
+      color: #e3353e; }
+header img.logo {
+  margin: 50px auto; }
+
+section#section1 img.phone-screens {
+  margin: 30px auto; }

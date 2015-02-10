@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,cyrillic);
+
+$color-dark: #1E1E1E;
+$color-light: #FFF;
+$color-red: #E3353E;
+
+.section-dark {
+  color: $color-light;
+  background-color: $color-dark;
+}
+
+.section-light {
+  color: $color-dark;
+  background-color: $color-light;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+body {
+  font-family: Cuprum, Helvetica, Arial, sans-serif!important;
+  font-size: 18px;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-block {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.block-inline {
+  display:inline-block;
+}
+
+a.btn-download {
+  color: $color-light;
+  background-color: $color-red;
+  border: 0px;
+  border-radius: 0px;
+  padding: 15px 15px;
+  font-style: italic;
+  font-weight: bold;
+  min-width: 280px;
+  font-size: 1.3em;
+}
+
+header {
+  .lang-chooser {
+    text-align: right;
+
+    >span {
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-style: italic;
+      color: $color-light;
+
+      a {
+        color: $color-light;
+        text-decoration: underline;
+      }
+
+      .active {
+        text-decoration: none;
+        color: $color-red;
+      }
+    }
+  }
+
+  img.logo {
+    margin: 50px auto;
+  }
+}
+
+section#section1 {
+  img.phone-screens {
+    margin: 30px auto;
+  }
+}
