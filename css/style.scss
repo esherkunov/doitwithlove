@@ -46,6 +46,10 @@ footer {
   display:inline-block;
 }
 
+.img-center-block {
+  margin: 30px auto;
+}
+
 a.btn-download {
   color: $color-light;
   background-color: $color-red;
@@ -83,11 +87,5 @@ header {
 
   img.logo {
     margin: 50px auto;
-  }
-}
-
-section#section1 {
-  img.phone-screens {
-    margin: 30px auto;
   }
 }

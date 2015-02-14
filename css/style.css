@@ -32,6 +32,9 @@ footer {
 .block-inline {
   display: inline-block; }
 
+.img-center-block {
+  margin: 30px auto; }
+
 a.btn-download {
   color: white;
   background-color: #e3353e;
@@ -59,6 +62,3 @@ header .lang-chooser {
       color: #e3353e; }
 header img.logo {
   margin: 50px auto; }
-
-section#section1 img.phone-screens {
-  margin: 30px auto; }
