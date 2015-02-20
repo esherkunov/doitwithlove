@@ -1,6 +1,6 @@
 #Конфиг для nginx
 
-```nginx
+~~~nginx
 server {
     root /home/esherkunov/www/doitwithlove;
     index index.php index.html index.htm;
@@ -23,4 +23,4 @@ server {
     server_name www.doitwithlove.net;
     rewrite ^/(.*) http://doitwithlove.net/$1 permanent;
 }
-
+~~~
