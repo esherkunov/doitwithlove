@@ -1,2 +1,3 @@
 /downloads/*
 !/downloads/.keep
+/.idea/workspace.xml
