@@ -35,6 +35,9 @@ footer {
 .img-center-block {
   margin: 30px auto; }
 
+.mar-top25 {
+  margin-top: 25px; }
+
 a.btn-download {
   color: white;
   background-color: #e3353e;
@@ -62,3 +65,30 @@ header .lang-chooser {
       color: #e3353e; }
 header img.logo {
   margin: 50px auto; }
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0; }
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px; }
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #6A96C7; }
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF; }
