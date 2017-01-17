@@ -14,6 +14,13 @@ $color-red: #E3353E;
   background-color: $color-light;
 }
 
+#lovemap {
+  padding: 0;
+  video {
+    width: 100%;
+  }
+}
+
 .text-center {
   text-align: center;
 }

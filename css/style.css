@@ -1,11 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,cyrillic);
 .section-dark {
-  color: white;
-  background-color: #1e1e1e; }
+  color: #FFF;
+  background-color: #1E1E1E; }
 
 .section-light {
-  color: #1e1e1e;
-  background-color: white; }
+  color: #1E1E1E;
+  background-color: #FFF; }
+
+#lovemap {
+  padding: 0; }
+  #lovemap video {
+    width: 100%; }
 
 .text-center {
   text-align: center; }
@@ -39,8 +44,8 @@ footer {
   margin-top: 25px; }
 
 a.btn-download {
-  color: white;
-  background-color: #e3353e;
+  color: #FFF;
+  background-color: #E3353E;
   border: 0px;
   border-radius: 0px;
   padding: 15px 15px;
@@ -56,13 +61,13 @@ header .lang-chooser {
     margin-top: 20px;
     margin-bottom: 20px;
     font-style: italic;
-    color: white; }
+    color: #FFF; }
     header .lang-chooser > span a {
-      color: white;
+      color: #FFF;
       text-decoration: underline; }
     header .lang-chooser > span .active {
       text-decoration: none;
-      color: #e3353e; }
+      color: #E3353E; }
 header img.logo {
   margin: 50px auto; }
 
@@ -92,3 +97,5 @@ ul.social-network {
   line-height: 50px;
   text-align: center;
   color: #FFF; }
+
+/*# sourceMappingURL=style.css.map */

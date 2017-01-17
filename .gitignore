@@ -1,3 +1,5 @@
-/downloads/*
+/downloads
 !/downloads/.keep
-/.idea/workspace.xml
+/.idea
+/css/*.map
+/css/.sass-cache
